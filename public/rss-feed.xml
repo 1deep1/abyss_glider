@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:yandex="http://news.yandex.ru" xmlns:media="http://search.yahoo.com/mrss/" xmlns:turbo="http://turbo.yandex.ru" version="2.0">
+    <channel>
+        <title>Abyss Glider</title>
+        <link>https://abyssglider.su/</link>
+        <description>//NFT artists //Cyberpunk Fantasy story of the dying world //Crypto trading cards</description>
+        <turbo:analytics type="Yandex" id="88957218"></turbo:analytics>
+        <item turbo="true">
+            <turbo:extendedHtml>true</turbo:extendedHtml>
+            <link>https://abyssglider.su/</link>
+            <turbo:content>
+                <![CDATA[
+                <header>
+                <h1>Abyss Glider</h1>
+                <h2>The ship to our universe<br>is leaving soon</h2>
+                </header>
+                <button formaction="https://twitter.com/AbyssGliders"
+                        data-background-color="#1da1f2"
+                        data-color="white"
+                        data-primary="true">Twitter</button>
+                <button formaction="https://discord.gg/dGU9mWfEDz"
+                        data-background-color="#5865f2"
+                        data-color="white"
+                        data-primary="true">Discord</button>
+                <h2>What our project is about?</h2>
+                <p>We are creating our own universe called “Elatu”, which will evolve during the NFT collections progression. In the future a board game based on our universe will be created, as well as two video games.</p>
+                <p>By purchasing our cards you will learn a little more about the universe, and you will also get a piece of the collection's plot, which you can collect to get an interesting story from the universe.</p>
+                <figure>
+                    <img src="https://abyssglider.su/storage/man.png">
+                </figure>
+                <h2>Our roadmap</h2>
+                <ol>
+                    <li>Developing smart contract</li>
+                    <li>Physical copy shipping</li>
+                    <li>Merchandise drop</li>
+                    <li>Creation of 3d models and shipping it with cards</li>
+                    <li>Shipping 3d models to our holders</li>
+                    <li>Start of parallel collection</li>
+                    <li>Merchandise drop 40 items</li>
+                    <li>Giveaway sponsor burning man trip</li>
+                    <li>Lauch of character constructor</li>
+                    <li>Board game work</li>
+                    <li>Comic draw and drop</li>
+                </ol>
+                ]]>
+            </turbo:content>
+        </item>
+    </channel>
+</rss>

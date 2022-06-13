@@ -1,0 +1,145 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+section {
+  scroll-margin-top: 145px;
+}
+
+.pixel_font {
+  font-family: 'Press Start 2P', cursive;
+}
+
+.text_big {
+  font-size: 6rem;
+  line-height: 1.1;
+}
+
+/* TitleBlock */
+
+.title_block {
+  background: linear-gradient(
+          rgba(0, 0, 0, 0.4), 
+          rgba(0, 0, 0, 0.4)
+        ),
+        /* bottom, image */
+        url("./images/map.png");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1140px;
+}
+
+.twitter_color {
+  background-color: #1DA1F2;
+}
+
+.twitter_color_black {
+  background-color: #14171A;
+}
+
+.twitter_color_gray {
+  color: #71767b;
+}
+
+.discord_color {
+  background-color: #5865F2;
+}
+
+/* TeamBlock */
+
+.team_block {
+    background-color: #f2f2f2;
+}
+
+.bg-grey {
+    background-color: #f2f2f2;
+}
+
+.avatar {
+  box-shadow: 5px 5px 20px 0 rgb(0 0 0 / 10%);
+  background-image: url(./images/alex.png);
+  background-position: 50% 0%;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  display: block;
+  vertical-align: middle;
+  border-radius: 50%;
+  background-size: cover;
+  margin: -268px auto 0 0;
+}
+
+/* Gallery Block */
+
+.bg-dark {
+  background-color: #292c33;
+}
+
+.text-gradient {
+  font-size: 72px;
+  background: -webkit-linear-gradient(#eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+
+.leading-big {
+  line-height: 3.1rem !important;
+}
+
+/* News Block */
+
+.long-text {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+          line-clamp: 2; 
+  -webkit-box-orient: vertical;
+}
+
+.news-text > p > a {
+  text-decoration: underline;
+}
+.news-text > p > a:hover {
+  text-decoration: none;
+}
+
+.news-text > blockquote {
+  padding: 8px 10px;
+  margin: 10px 0;
+  border-radius: 10px;
+  border-left: 0.25rem solid rgb(236, 238, 239);
+}
+
+.news-text > img {
+  border-radius: 0.5rem;
+}
+
+/* Footer */
+
+.footer_block {
+  background-image: url("./images/footer.png");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+@media (max-width: 1025px) { 
+  .leading-big {
+    line-height: 2rem !important;
+  }
+  section {
+    scroll-margin-top: 140px;
+  }
+}

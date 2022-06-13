@@ -1,0 +1,27 @@
+[
+    {
+        "id": 1,
+        "text": "About",
+        "url": "/#about"
+    },
+    {
+        "id": 2,
+        "text": "Team",
+        "url": "/#team"
+    },
+    {
+        "id": 3,
+        "text": "Gallery",
+        "url": "/#gallery"
+    },
+    {
+        "id": 4,
+        "text": "Roadmap",
+        "url": "/#roadmap"
+    },
+    {
+        "id": 5,
+        "text": "News",
+        "url": "/#news"
+    }
+]
